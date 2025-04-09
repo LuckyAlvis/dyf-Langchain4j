@@ -1,7 +1,7 @@
 -- 创建记账数据库
-CREATE DATABASE IF NOT EXISTS expense_tracker CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE IF NOT EXISTS langchain4j CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
-USE expense_tracker;
+USE langchain4j;
 
 -- 创建消费记录表
 CREATE TABLE IF NOT EXISTS `expense_record`
