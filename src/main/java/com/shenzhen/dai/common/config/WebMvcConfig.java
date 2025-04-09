@@ -1,4 +1,4 @@
-package com.shenzhen.dai.langchain4j.config;
+package com.shenzhen.dai.common.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

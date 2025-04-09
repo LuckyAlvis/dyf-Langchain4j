@@ -1,4 +1,4 @@
-package com.shenzhen.dai.langchain4j.config;
+package com.shenzhen.dai.common.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
@@ -17,8 +17,8 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Langchain4j API文档")
-                        .description("Langchain4j项目API文档")
+                        .title("API文档")
+                        .description("项目API文档")
                         .version("1.0.0")
                         .contact(new Contact()
                                 .name("Trae AI")
@@ -28,4 +28,5 @@ public class SwaggerConfig {
                         .scheme("bearer")
                         .bearerFormat("JWT"));
     }
+
 }
